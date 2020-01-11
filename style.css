@@ -1,0 +1,132 @@
+body {
+    background:#FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* css for index page, lines 8 - 75 */
+#content {
+    width: 50%;
+    height: 100vh;
+    float: right;
+    text-align: center;  
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#first {
+    max-width: 100%;
+    max-height: 100%;
+    opacity:0.1;
+}
+
+#welcome {
+    text-align: center;
+    background: #F8F8FF;
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+  
+  h1, h3 {
+      font-family: 'Lucida Sans', Helvetica, sans-serif;
+      font-weight: 100;
+      color: #4CA ;
+  }
+  h3 {
+      font-style: italic;
+  }
+
+  .form{
+      position: relative;
+      z-index: 1;
+      text-align: center;
+  }
+
+  .form input{
+      font-size: medium;
+      outline: 1;
+      border: 0;
+      border-radius: 5%;
+      margin: 0;
+      width:50%;
+      margin:10px;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+
+  .form button{
+      text-transform: uppercase;
+      font-size: medium;
+      outline: 0;
+      border: 0;
+      border-radius: 5%;
+      padding: 10px;
+      cursor: pointer;
+      background-color:#4CA ;
+  }
+
+  .form .register{
+      display: none;
+  }
+
+
+  /*css for tracker page, here downwards*/
+  #image {
+    width: 50%;
+    height: 100vh;
+    float: left;
+    text-align: center;  
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#second {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#track {
+    text-align: center;
+    background: #F8F8FF;
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+.tracker{
+    font-size: medium;
+    outline: 0;
+    border: 0;
+    border-radius: 5%;
+    padding: 10px;
+    cursor: pointer;
+    background-color:#4CA ;
+    margin: 10px;
+}
+
+.details input{
+    font-size: medium;
+    outline: 1;
+    border: 0;
+    border-radius: 5%;
+    margin: 0;
+    width:50%;
+    margin:10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#male, #female {
+    display: inline;
+    position: relative;
+    text-align: left;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+}
